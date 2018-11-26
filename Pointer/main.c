@@ -23,34 +23,16 @@ void checkBegin(char*str1,char*str2);
 void insertString(char*line1,char*char1,int pos);
 void myFunc(int n);
 void reverse_string(char *s1);
+int addTwoNumbers(int *n, int *n2);
 
 
 
 
 int main(int argc, const char * argv[]) {
-    
-    
-    char s1[] = "Reverse me!";
-    char s2[] = "abc";
-    char s3[] = "ab";
-    char s4[] = "a";
-    char s5[] = "";
-    
-    reverse_string(0);
-    
-    reverse_string(s1);
-    reverse_string(s2);
-    reverse_string(s3);
-    reverse_string(s4);
-    reverse_string(s5);
-    
-    printf("%s\n", s1);
-    printf("%s\n", s2);
-    printf("%s\n", s3);
-    printf("%s\n", s4);
-    printf("%s\n", s5);
-
-
+    int m=12;
+    int n=3;
+    int sum= addTwoNumbers(&m, &n);
+    printf("%d",sum);
 
 }
 
