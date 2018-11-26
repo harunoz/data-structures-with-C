@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992B8E9F21AC225300F18ED3 /* CopyEven.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8E9E21AC225300F18ED3 /* CopyEven.c */; };
 		9997A82821A97A690057128D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9997A82721A97A690057128D /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		992B8E9E21AC225300F18ED3 /* CopyEven.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CopyEven.c; sourceTree = "<group>"; };
 		9997A82421A97A690057128D /* Pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pointer; sourceTree = BUILT_PRODUCTS_DIR; };
-		9997A82721A97A690057128D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9997A82721A97A690057128D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "/Users/harun/Library/Autosave Information/Pointer/Pointer/main.c"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9997A82721A97A690057128D /* main.c */,
+				992B8E9E21AC225300F18ED3 /* CopyEven.c */,
 			);
 			path = Pointer;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992B8E9F21AC225300F18ED3 /* CopyEven.c in Sources */,
 				9997A82821A97A690057128D /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
