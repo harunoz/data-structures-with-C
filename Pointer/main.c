@@ -15,10 +15,9 @@ int countWord(char * s1);
 int copyEven(int *a1,int n1, int *a2);
 void disparr(int ar[], int n);
 void copyAlpha(char mySt1[],char mySt2[]);
-void CountSubstring(char *str, char *substr);
+void countSubst(char * str1, char * str2);
 void toLower(char * str);
 void copyAlpha(char *s1,char*s2);
-void changeString(char *line, char* char1,char*char2);
 void checkBegin(char*str1,char*str2);
 void insertString(char*line1,char*char1,int pos);
 void myFunc(int n);
@@ -30,16 +29,20 @@ void findLargest(int n);
 void lengthOfString(char* chr1);
 void swapElements(char *str1, char *str2);
 
+void changeString(char *string, char *search, char *replace);
+
 
 #include <stdio.h>
 
 
 int main(int argc, const char * argv[]) {
-    char myString[200]="harun";
-    char myString1[200]="h";
+    char line[SIZE]="harnozz";
+    char char1[10]="harunoz";
+    char char2[10]="gu";
     
+    checkBegin(line, char1);
     
-    CountSubstring(myString,myString1 );
+   // changeString(line, char1, char2);
 }
 
 

@@ -9,15 +9,16 @@
 #include <stdio.h>
 
 
-void changeString(char *line, char* char1,char*char2){
-    char *ptr;
-    ptr= strstr(line,char1);
-    while( ptr != '\0'){
-        ptr = strstr(ptr + strlen(char1),char1);
-            *line=*char2;
-            line++;
-        
-        
+void changeString(char *string, char *search, char *replace){
+    char buffer[100];
+    char*ptr = string;
+    while((ptr=strstr(ptr, search))){
+        strncpy(buffer, string, ptr-string);
+        buffer[ptr-string] = '\0';
+        strcat(buffer, replace);
+        strcat(buffer, ptr+strlen(search));
+        strcpy(string, buffer);
+        ptr++;
     }
-    printf("%s",line);
+    printf("%s\n",string);
 }
