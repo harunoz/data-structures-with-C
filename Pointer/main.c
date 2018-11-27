@@ -24,16 +24,22 @@ void insertString(char*line1,char*char1,int pos);
 void myFunc(int n);
 void reverse_string(char *s1);
 int addTwoNumbers(int *n, int *n2);
+void changePosition(char* ch1, char* ch2);
+void charPermu(char *cht, int stno, int endno);
+void findLargest(int n);
+void lengthOfString(char* chr1);
+void swapElements(char *str1, char *str2);
 
 
+#include <stdio.h>
 
 
 int main(int argc, const char * argv[]) {
-    int m=12;
-    int n=3;
-    int sum= addTwoNumbers(&m, &n);
-    printf("%d",sum);
-
+    char myString[200]="harun";
+    char myString1[200]="h";
+    
+    
+    CountSubstring(myString,myString1 );
 }
 
 

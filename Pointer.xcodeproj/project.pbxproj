@@ -14,6 +14,12 @@
 		992B8EAE21AC39F100F18ED3 /* checkBegin.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EAD21AC39F100F18ED3 /* checkBegin.c */; };
 		992B8EB021AC3B3500F18ED3 /* insertString.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EAF21AC3B3500F18ED3 /* insertString.c */; };
 		992B8EB221AC448000F18ED3 /* countWord.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EB121AC448000F18ED3 /* countWord.c */; };
+		992B8EC721AC774800F18ED3 /* intToString.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EC621AC774800F18ED3 /* intToString.c */; };
+		992B8EC921AC77D200F18ED3 /* reverseString.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EC821AC77D200F18ED3 /* reverseString.c */; };
+		992B8ECB21AC7B5000F18ED3 /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8ECA21AC7B5000F18ED3 /* addTwoNumbers.c */; };
+		992B8ED721AC9EC300F18ED3 /* findLargest.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8ED621AC9EC300F18ED3 /* findLargest.c */; };
+		992B8EDC21ACA16000F18ED3 /* lengthOfString.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EDB21ACA16000F18ED3 /* lengthOfString.c */; };
+		992B8EDE21ACA1A200F18ED3 /* swapElements.c in Sources */ = {isa = PBXBuildFile; fileRef = 992B8EDD21ACA1A200F18ED3 /* swapElements.c */; };
 		9997A82821A97A690057128D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9997A82721A97A690057128D /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +43,12 @@
 		992B8EAD21AC39F100F18ED3 /* checkBegin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = checkBegin.c; sourceTree = "<group>"; };
 		992B8EAF21AC3B3500F18ED3 /* insertString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = insertString.c; sourceTree = "<group>"; };
 		992B8EB121AC448000F18ED3 /* countWord.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = countWord.c; sourceTree = "<group>"; };
+		992B8EC621AC774800F18ED3 /* intToString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = intToString.c; sourceTree = "<group>"; };
+		992B8EC821AC77D200F18ED3 /* reverseString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverseString.c; sourceTree = "<group>"; };
+		992B8ECA21AC7B5000F18ED3 /* addTwoNumbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addTwoNumbers.c; sourceTree = "<group>"; };
+		992B8ED621AC9EC300F18ED3 /* findLargest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = findLargest.c; sourceTree = "<group>"; };
+		992B8EDB21ACA16000F18ED3 /* lengthOfString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lengthOfString.c; sourceTree = "<group>"; };
+		992B8EDD21ACA1A200F18ED3 /* swapElements.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swapElements.c; sourceTree = "<group>"; };
 		9997A82421A97A690057128D /* Pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		9997A82721A97A690057128D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "/Users/harun/Library/Autosave Information/Pointer/Pointer/main.c"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -79,6 +91,12 @@
 				992B8EAD21AC39F100F18ED3 /* checkBegin.c */,
 				992B8EAF21AC3B3500F18ED3 /* insertString.c */,
 				992B8EB121AC448000F18ED3 /* countWord.c */,
+				992B8EC621AC774800F18ED3 /* intToString.c */,
+				992B8EC821AC77D200F18ED3 /* reverseString.c */,
+				992B8ECA21AC7B5000F18ED3 /* addTwoNumbers.c */,
+				992B8ED621AC9EC300F18ED3 /* findLargest.c */,
+				992B8EDB21ACA16000F18ED3 /* lengthOfString.c */,
+				992B8EDD21ACA1A200F18ED3 /* swapElements.c */,
 			);
 			path = Pointer;
 			sourceTree = "<group>";
@@ -140,13 +158,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				992B8EAE21AC39F100F18ED3 /* checkBegin.c in Sources */,
+				992B8ED721AC9EC300F18ED3 /* findLargest.c in Sources */,
 				992B8EB221AC448000F18ED3 /* countWord.c in Sources */,
 				992B8EA621AC296000F18ED3 /* countSubst.c in Sources */,
+				992B8EC721AC774800F18ED3 /* intToString.c in Sources */,
+				992B8EDE21ACA1A200F18ED3 /* swapElements.c in Sources */,
 				992B8EAA21AC348600F18ED3 /* CopyAlpha.c in Sources */,
+				992B8EDC21ACA16000F18ED3 /* lengthOfString.c in Sources */,
+				992B8ECB21AC7B5000F18ED3 /* addTwoNumbers.c in Sources */,
 				992B8EA821AC2BB100F18ED3 /* toLower.c in Sources */,
 				992B8EB021AC3B3500F18ED3 /* insertString.c in Sources */,
 				992B8EAC21AC37F700F18ED3 /* changeString.c in Sources */,
 				9997A82821A97A690057128D /* main.c in Sources */,
+				992B8EC921AC77D200F18ED3 /* reverseString.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
