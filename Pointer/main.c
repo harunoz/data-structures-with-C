@@ -36,13 +36,13 @@ void changeString(char *string, char *search, char *replace);
 
 
 int main(int argc, const char * argv[]) {
-    char line[SIZE]="harnozz";
-    char char1[10]="harunoz";
-    char char2[10]="gu";
+    char line[SIZE]="harunoz";
+    char char1[10]="ru";
+    char char2[10]="HO";
     
-    checkBegin(line, char1);
-    
-   // changeString(line, char1, char2);
+    int n=0;
+    //insertString(line, char2, n);
+    changeString(line, char1, char2);
 }
 
 

@@ -12,11 +12,17 @@
 void changeString(char *string, char *search, char *replace){
     char buffer[100];
     char*ptr = string;
+    printf("ptr is %s\n",ptr);
     while((ptr=strstr(ptr, search))){
+        printf("ptr2 is %s\n",ptr);
         strncpy(buffer, string, ptr-string);
+         printf("buffer is %s\n",buffer);
         buffer[ptr-string] = '\0';
+
         strcat(buffer, replace);
+         printf("buffer is %s\n",buffer);
         strcat(buffer, ptr+strlen(search));
+         printf("buffer is %s\n",buffer);
         strcpy(string, buffer);
         ptr++;
     }

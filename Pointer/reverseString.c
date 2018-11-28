@@ -16,9 +16,7 @@ void reverse_string(char *s1){
     if(*s1 ==0){
         return; //Skip empty
     }
-    
     //getrange
-    
     char *start = s1;
     char *end= start + strlen(s1) - 1 ;
     char temp;

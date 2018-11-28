@@ -16,7 +16,7 @@ void insertString(char*line1,char*char1,int pos){
     
     len1=strlen(line1);
     
-    if(pos <=0 || pos > len1){
+    if(pos <0 || pos > len1){
         printf("Position is out of bound");
     }
     else{

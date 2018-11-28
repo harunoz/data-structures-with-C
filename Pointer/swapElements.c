@@ -13,7 +13,6 @@
 void swapElements(char *str1, char *str2){
  char *temp = (char *)malloc((strlen(str1) + 1) * sizeof(char));
     
-    
     strcpy(temp,str1);
     strcpy(str1,str2);
     strcpy(str2,temp);
