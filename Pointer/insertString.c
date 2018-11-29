@@ -21,9 +21,8 @@ void insertString(char*line1,char*char1,int pos){
     }
     else{
         strcpy(temp,(line1+pos));
-        printf("temp--> %s\n",temp);
         strcpy(line1+pos,char1);
-        printf("line1 --> %s\n",line1);
+
         strcat(line1,temp);
         
     }

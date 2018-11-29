@@ -34,15 +34,33 @@ void changeString(char *string, char *search, char *replace);
 
 #include <stdio.h>
 
-
+void isPalindrome(char *str)
+{
+    // Start from leftmost and rightmost corners of str
+    int l = 0;
+    int h = strlen(str) - 1;
+    
+    // Keep comparing characters while they are same
+    while (h > l)
+    {
+        if (str[l++] != str[h--])
+        {
+            printf("%s is Not Palindrome", str);
+            return;
+        }
+    }
+    printf("%s is palindrome", str);
+}
 int main(int argc, const char * argv[]) {
-    char line[SIZE]="harunoz";
+    char line[SIZE]="abba abba";
     char char1[10]="ru";
     char char2[10]="HO";
     
     int n=0;
+    
+    isPalindrome(line);
     //insertString(line, char2, n);
-    changeString(line, char1, char2);
+   // changeString(line, char1, char2);
 }
 
 
