@@ -20,7 +20,7 @@ void changeString(char *string, char *search, char *replace){
         buffer[ptr-string] = '\0';
 
         strcat(buffer, replace);
-         printf("buffer is %s\n",buffer);
+
         strcat(buffer, ptr+strlen(search));
          printf("buffer is %s\n",buffer);
         strcpy(string, buffer);
